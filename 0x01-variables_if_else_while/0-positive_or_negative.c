@@ -3,9 +3,9 @@
 #include<stdio.h>
 
 /**
- * main - negative , positive and zero values
+ * main - shows  negative , positive and zero values
  *
- * Return : 0
+ * Return : 0 value (success)
  */
 
 int main(void)
