@@ -7,9 +7,8 @@
  *
  * Description: this script shows the negative, positive and zero values
  *
- * Return : 0 value (success)
+ * Return : 0 Always (success)
  */
-
 int main(void)
 {
 	int n;
