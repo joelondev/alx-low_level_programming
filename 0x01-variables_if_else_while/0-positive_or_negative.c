@@ -3,10 +3,11 @@
 #include<stdio.h>
 
 /**
- * main - entry point
+ * main - negative , positive and zero values
  *
- * Return : negative, positive values
+ * Return : 0
  */
+
 int main(void)
 {
 	int n;
