@@ -7,7 +7,6 @@
  *
  * Return : negative, positive values
  */
-
 int main(void)
 {
 	int n;
