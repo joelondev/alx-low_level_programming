@@ -3,7 +3,7 @@
 #include<stdio.h>
 
 /**
- * main - entry point 
+ * main - entry point
  *
  * Description: this script shows the negative, positive and zero values
  *
