@@ -5,6 +5,7 @@
  *
  * Return: Size of the various types on the computer
  */
+
 int main(void)
 {
 printf("Size of a char: %ld byte(s)\n", sizeof(char));
