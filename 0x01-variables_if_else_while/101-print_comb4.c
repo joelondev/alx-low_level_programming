@@ -17,7 +17,7 @@ int main(void)
 	        n = k % 10;
 
 
-		if (l < m && < n)
+		if (l < m && m < n)
 		{
 			putchar(l + '0');
 			putchar(m + '0');
