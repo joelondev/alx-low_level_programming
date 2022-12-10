@@ -14,7 +14,7 @@ int main(void)
 	while (k < 100)
 	{
 		l = k % 10; /* represent single digit */
-		m = k /10;
+		m = k / 10;
 
 		if (m < l)
 		{
