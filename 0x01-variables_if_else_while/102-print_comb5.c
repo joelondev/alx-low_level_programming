@@ -20,7 +20,7 @@ int main(void)
 			c = k / 10;
 			d = k % 10;
 
-			if ( a < c || (a == c && b < d))
+			if (a < c || (a == c && b < d))
 			{
 				putchar(a + '0');
 				putchar(b + '0');
