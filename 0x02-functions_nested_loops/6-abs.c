@@ -9,10 +9,10 @@ int _abs(int q)
 {
 	if (q < 0)
 	{
-		return(n * -1);
+		return(q * -1);
 	}
 	else
 	{
-		return (n);
+		return (q);
 	}
 }
