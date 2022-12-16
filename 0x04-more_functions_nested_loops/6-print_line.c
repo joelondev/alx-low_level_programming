@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print_line - draw a straight line
+ * print_line - program function that draws a straight line
  * @n: number of times underscore is printed
  * Description: Can only use _putchar to print
  */
