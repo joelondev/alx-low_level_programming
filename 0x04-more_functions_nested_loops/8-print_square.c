@@ -21,7 +21,7 @@ void print_square(int size)
 		x = 0;
 		while (x < size)
 		{
-			_putchar('*');
+			_putchar('#');
 			x++;
 		}
 		_putchar('\n');
