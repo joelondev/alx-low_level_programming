@@ -22,3 +22,4 @@ void print_rev(char *s)
 		j--;
 	}
 	_putchar('\n');
+}
