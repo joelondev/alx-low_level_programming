@@ -1,5 +1,5 @@
 #include "main.h"
-
+#include <stdio.h>
 /**
  * print_rev - fxn that prints a string in reverse
  * @s: string
