@@ -2,7 +2,9 @@
 
 /**
  *_strncpy - copies a string
- *
+ * @src: source string
+ * @dest: destination string
+ * @n: number
  */
 
 char *_strncpy(char *dest, char *src, int n)
