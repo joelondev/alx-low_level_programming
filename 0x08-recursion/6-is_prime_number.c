@@ -17,6 +17,25 @@ int is_prime_number(int n)
 }
 
 /**
+ * _sqrt - return square root of number
+ * @x: number
+ * @i: number incrementor acting as divisor
+ * Return: square root of `x`
+ */
+
+int _sqrt(int x, int i)
+{
+	int square;
+
+	square = i * i;
+	if (square >= x)
+		return (i);
+	else
+		return (_sqrt(x, i + 1));
+}
+
+
+/**
  * help_func_2 - helper function, recursive steps
  * @n: number
  * @d: divisor
@@ -27,7 +46,7 @@ int help_func_2(int n, int d)
 {
 	if (n % d == 0)
 		return (0);
-	else if (help_func(n, 1) < d)
+	else if (_sqrt(n, 1) < d)
 		return (1);
 	else
 		return (help_func_2(n, d + 1));

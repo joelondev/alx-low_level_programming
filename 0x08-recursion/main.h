@@ -10,3 +10,4 @@ int is_palindrome(char *s);
 int wildcmp(char *s1, char *s2);
 int help_func(int c, int i);
 int help_func_2(int a, int b);
+int _sqrt(int a, int b);
