@@ -27,6 +27,8 @@ int help_func_2(int n, int d)
 {
 	if (n % d == 0)
 		return (0);
+	else if (help_func(n, 1) < d)
+		return (1);
 	else
 		return (help_func_2(n, d + 1));
 }
