@@ -1,0 +1,10 @@
+#include "main.h"
+
+/**
+ * wildcmp -  function that compares two strings and returns
+ *  if the strings can be considered identical, otherwise return 0
+ * @s1: first pointer to string
+ * @s2: second pointer to string
+ * Return: 0
+ */
+
