@@ -3,7 +3,7 @@
 #include <stdlib.h>
 
 /**
- * string_nconcat - func to concatenate 2 strings, 
+ * string_nconcat - func to concatenate 2 strings
  * only n bytes of s2
  * @s1: first string
  * @s2: second string
