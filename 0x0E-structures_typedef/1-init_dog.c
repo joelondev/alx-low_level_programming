@@ -7,10 +7,9 @@
  * @name: pointer to dogs name
  * @age: dogs age
  * @owner: pointer to owners dog
- * Return: null
  */
 
-void inti_dog(struct dog *d, char *name, float age, char *owner)
+void init_dog(struct dog *d, char *name, float age, char *owner)
 {
 	if (d != NULL)
 	{
